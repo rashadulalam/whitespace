@@ -55,14 +55,7 @@ h4 {
     padding: 16px 24px;
     transition: ease-in-out .5s;
 }
-@media (max-width: 991px) {
- .theme-button-two {
-    margin-bottom: 20px;
- }
- .theme-button-two, .theme-button {
-    width: 100%;
- }
-}
+
 /* 
  Header area
 */
@@ -82,4 +75,25 @@ h4 {
 }
 .navbar-toggler:focus {
     box-shadow: none;
+}
+@media (max-width: 991px) {
+    .theme-button-two {
+       margin-bottom: 20px;
+    }
+    .theme-button-two, .theme-button {
+       width: 100%;
+    }
+
+    .header-area .nav-link {
+        position: relative;
+    }
+    .header-area .nav-link::after {
+        position: absolute;
+        top: 50%;
+        right: 12px;
+        transform: translateY(-50%);
+        
+    }
+
+    
 }
