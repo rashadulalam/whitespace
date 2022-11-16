@@ -77,3 +77,9 @@ h4 {
 .header-area .nav-link.active {
     color: #fff;
 }
+.navbar-toggler {
+    border: 0;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
