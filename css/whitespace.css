@@ -178,3 +178,25 @@ h4 {
         margin-top: 60px;
     }
 }
+
+
+/* 
+ Extension area css
+*/
+.extension-area {
+    padding: 140px 0;
+    background-color: #043873;
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    .extension-area {
+        padding: 80px 0;
+        text-align: center;
+    }
+
+    .extension-area .theme-button {
+        margin: 50px;
+    }
+    
+}
