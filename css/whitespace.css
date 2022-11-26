@@ -317,3 +317,21 @@ h4 {
     display: inline;
     text-align: center;
 }
+
+/* 
+ Your data area css
+*/
+.your-data-area {
+    background-color: #fff;
+
+    padding: 140px 0
+
+}
+@media (max-width: 991px) {
+    .your-data-area {
+        text-align: center;
+    }
+    .your-data-area .theme-button-two, .theme-button {
+    width: inherit;
+}
+}
