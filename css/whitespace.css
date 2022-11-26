@@ -278,6 +278,11 @@ h4 {
     color: #fff;
     padding: 80px 44px;
 }
+@media (max-width: 991px) {
+    .pricing-area {
+        padding: 80px 0;
+    }
+}
 
 /* 
  your work area
@@ -318,6 +323,11 @@ h4 {
     text-align: center;
 }
 
+@media (max-width: 991px) {
+    .your-data-area {
+        padding: 80px 0;
+    }
+}
 /* 
  Your data area css
 */
@@ -332,6 +342,34 @@ h4 {
         text-align: center;
     }
     .your-data-area .theme-button-two, .theme-button {
-    width: inherit;
+        width: inherit;
+    }
 }
+
+/* 
+ Sponsors area css
+*/
+.sponsors-area {
+    padding: 140px 0;
+}
+.sponsors-area .theme-text {
+    margin-bottom: 100px;
+}
+
+
+.single-sponsors img {
+    height: 55px;
+}
+
+@media (max-width: 991px) {
+    .sponsors-area {
+        padding-top: 80px;
+    }
+    .sponsors-area {
+        padding-bottom: 30px;
+    }
+
+    .single-sponsors img {
+        margin-bottom: 50px;
+    }
 }
