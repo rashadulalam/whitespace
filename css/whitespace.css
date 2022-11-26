@@ -278,3 +278,42 @@ h4 {
     color: #fff;
     padding: 80px 44px;
 }
+
+/* 
+ your work area
+*/
+.your-work-area {
+    padding: 140px 0;
+    background-color: #043873;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.your-work-area::after {
+        position: absolute;
+        content: "";
+        background-image: url("../img/background-shap.png");
+        background-position: center;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        /* z-index: -1; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 0;
+        background-position: left;
+}
+.your-work-area p {
+    margin-bottom: 45px;
+}
+
+.your-work-area .theme-text h3 span::after {
+    background-image: url("../img/shape-2.png");
+    bottom: -45px;
+    background-size:contain;
+}
+
+.your-work-area .theme-button {
+    display: inline;
+    text-align: center;
+}
