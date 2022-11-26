@@ -76,6 +76,21 @@ h4 {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.theme-button-three {
+    background-color: #fff;
+    border: 1px solid #FFE492;
+    text-decoration: none;
+    padding: 16px 40px;
+    color: inherit;
+    transition: ease-in-out .5s;
+    font-weight: 700;
+    margin-top: 25px;
+    display: inline-block;
+
+}
+.theme-button-three:hover{
+    color: inherit;
+}
 @media (max-width: 991px ){
     .theme-text h3 {
         font-size: 45px;
@@ -218,4 +233,48 @@ h4 {
     .extension-area .theme-button {
         margin: 50px 0;
     }
+}
+
+/* 
+ Pricing area css
+*/
+.pricing-area {
+    padding: 140px 0;
+    background-color: #fff;
+}
+
+.pricing-area .theme-text {
+    margin-bottom: 60px;
+}
+
+.single-pricing {
+    border: 1px solid #FFE492;
+    border-radius: 10px;
+    padding: 40px 44px;
+}
+.single-pricing h4 {
+    font-size: 24px;
+    font-weight: 500;
+ }
+ .single-pricing h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 25px 0;
+ }
+ .single-pricing ul {
+    margin: 25px 0;
+    padding: 0;
+ }
+ .single-pricing ul li {
+    list-style: none;
+    margin-bottom: 28px;
+ }
+ .single-pricing ul li:last-child {
+    margin-bottom: 0;
+ }
+
+.special-pricing {
+    background-color: #043873;
+    color: #fff;
+    padding: 80px 44px;
 }
