@@ -373,3 +373,31 @@ h4 {
         margin-bottom: 50px;
     }
 }
+
+
+/* 
+ Apps management area css
+*/
+
+.apps-area {
+    color: #fff;
+    padding: 140px 0;
+    background-image: url('../img/hero-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 991px) {
+    .apps-area {
+        padding-top: 80px;
+    }
+
+    .apps-image {
+        margin-bottom: 50px;
+    }
+
+    .apps-area .theme-text {
+        text-align: center;
+    }
+}
