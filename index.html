@@ -204,8 +204,8 @@
               </div>
             </div>
           </div> <!-- .row-->
-          <div class="row d-flex align-items-center">
-            <div class="col-lg-4 mb-sm-5">
+          <div class="row">
+            <div class="all-pricing owl-carousel">
               <div class="single-pricing">
                 <h4>Free</h4>
                 <h2>$0</h2>
@@ -219,9 +219,7 @@
                   <li class=""><img src="img/list-icon.png" alt="" /> Add due dates, reminders, and notifications to your tasks</li>
                 </ul>
                 <a href="#" class="theme-button-three">Get Started</a>
-              </div>
-            </div> <!--.col-lg-4-->
-            <div class="col-lg-4 mb-sm-5">
+              </div> <!-- end single-pricing -->
               <div class="single-pricing special-pricing">
                 <h4>Personal</h4>
                 <h2>$11.99</h2>
@@ -235,9 +233,7 @@
                   <li class=""><img src="img/icon2.png" alt="" /> Add due dates, reminders, and notifications to your tasks</li>
                 </ul>
                 <a href="#" class="theme-button">Get Started</a>
-              </div>
-            </div> <!--.col-lg-4-->
-            <div class="col-lg-4 mb-sm-5">
+              </div> <!-- end single-pricing -->
               <div class="single-pricing">
                 <h4>Organization</h4>
                 <h2>$49.99</h2>
@@ -255,8 +251,8 @@
                   </li>
                 </ul>
                 <a href="#" class="theme-button-three">Get Started</a>
-              </div>
-            </div> <!--.col-lg-4-->
+              </div> <!-- end single-pricing -->
+            </div>
           </div> <!-- .row -->
         </div> <!-- .container-->
       </section>
@@ -573,32 +569,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        $('.owl-carousel').owlCarousel({
-          autoplay:true,
-          loop:true,
-          dots: true,
-          nav: false,
-          margin:20,
-          responsiveClass:true,
-          responsive:{
-              0:{
-                  items:1,
-                  nav:true
-              },
-              600:{
-                  items:3,
-                  nav:false
-              },
-              991:{
-                  items:3,
-                  nav:true,
-                  loop:false
-              }
-          }
-        });
-      })
-    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>

@@ -246,7 +246,10 @@ h4 {
 .pricing-area .theme-text {
     margin-bottom: 60px;
 }
-
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
 .single-pricing {
     border: 1px solid #FFE492;
     border-radius: 10px;
@@ -268,6 +271,13 @@ h4 {
  .single-pricing ul li {
     list-style: none;
     margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+ }
+ .single-pricing ul li img {
+    width: 21px !important;
+    height: 21px !important;
+    margin-right: 15px;
  }
  .single-pricing ul li:last-child {
     margin-bottom: 0;
@@ -278,6 +288,36 @@ h4 {
     color: #fff;
     padding: 80px 44px;
 }
+.all-pricing .owl-dots button {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #043873;
+    margin: 0 5px;
+}
+
+.all-pricing .owl-dots button.active {
+    background-color: #1b73d7;
+}
+
+
+.all-pricing .owl-dots {
+    text-align: center;
+    margin-top: 50px;
+}
+.testimonial-area .owl-dots button {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #043873;
+    margin: 0 5px;
+}
+
+.all-pricing .owl-dots button.active {
+    background-color: #1b73d7;
+}
+
+
 @media (max-width: 991px) {
     .pricing-area {
         padding: 80px 0;
@@ -462,6 +502,7 @@ h4 {
 .testimonial-area .owl-nav {
     display: none;
 }
+
 .testimonial-area .owl-dots {
     text-align: center;
     margin-top: 50px;
