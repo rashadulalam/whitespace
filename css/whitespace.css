@@ -91,11 +91,7 @@ h4 {
 .theme-button-three:hover{
     color: inherit;
 }
-@media (max-width: 991px ){
-    .theme-text h3 {
-        font-size: 45px;
-    }
-}
+
 /* 
  Header area
 */
@@ -116,28 +112,6 @@ h4 {
 .navbar-toggler:focus {
     box-shadow: none;
 }
-@media (max-width: 991px) {
-    .theme-button-two {
-       margin-bottom: 20px;
-    }
-    .theme-button-two, .theme-button {
-       width: 100%;
-    }
-
-    .header-area .nav-link {
-        position: relative;
-    }
-    .header-area .nav-link::after {
-        position: absolute;
-        top: 50%;
-        right: 12px;
-        transform: translateY(-50%);
-        
-    }
-
-    
-}
-
 /* 
  Hero area css
 */
@@ -158,19 +132,6 @@ h4 {
     margin: 40px 0;
 }
 
-@media (max-width: 991px) {
-    .hero-area {
-        text-align: center;
-        padding: 80px 0;
-    }
-    .hero-area h3 {
-        font-size: 36px;
-
-    }
-    .hero-area .theme-button {
-        margin-bottom: 50px;
-    }
-}
 
 /* 
  Management area css
@@ -181,17 +142,6 @@ h4 {
 }
 .work-management {
     margin-top: 100px;
-}
-@media (max-width: 991px) {
-    .management-area {
-        padding: 80px 0;
-    }
-    .management-area .theme-button {
-        margin-bottom: 50px;
-    }
-    .work-management {
-        margin-top: 60px;
-    }
 }
 
 
@@ -204,18 +154,6 @@ h4 {
     color: #fff;
 }
 
-@media (max-width: 991px) {
-    .extension-area {
-        padding: 80px 0;
-        text-align: center;
-    }
-
-    .extension-area .theme-button {
-        margin: 50px 0;
-    }
-    
-}
-
 /* 
  Customize area css
 */
@@ -223,18 +161,6 @@ h4 {
     padding: 140px 0;
     background-color: #fff;
 }
-
-@media (max-width: 991px) {
-    .customize-area {
-        padding: 80px 0;
-        text-align: center;
-    }
-
-    .extension-area .theme-button {
-        margin: 50px 0;
-    }
-}
-
 /* 
  Pricing area css
 */
@@ -318,12 +244,6 @@ h4 {
 }
 
 
-@media (max-width: 991px) {
-    .pricing-area {
-        padding: 80px 0;
-    }
-}
-
 /* 
  your work area
 */
@@ -363,11 +283,6 @@ h4 {
     text-align: center;
 }
 
-@media (max-width: 991px) {
-    .your-data-area {
-        padding: 80px 0;
-    }
-}
 /* 
  Your data area css
 */
@@ -377,14 +292,7 @@ h4 {
     padding: 140px 0
 
 }
-@media (max-width: 991px) {
-    .your-data-area {
-        text-align: center;
-    }
-    .your-data-area .theme-button-two, .theme-button {
-        width: inherit;
-    }
-}
+
 
 /* 
  Sponsors area css
@@ -401,20 +309,6 @@ h4 {
     height: 55px;
 }
 
-@media (max-width: 991px) {
-    .sponsors-area {
-        padding-top: 80px;
-    }
-    .sponsors-area {
-        padding-bottom: 30px;
-    }
-
-    .single-sponsors img {
-        margin-bottom: 50px;
-    }
-}
-
-
 /* 
  Apps management area css
 */
@@ -426,20 +320,6 @@ h4 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-@media (max-width: 991px) {
-    .apps-area {
-        padding-top: 80px;
-    }
-
-    .apps-image {
-        margin-bottom: 50px;
-    }
-
-    .apps-area .theme-text {
-        text-align: center;
-    }
 }
 
 /* 
@@ -547,22 +427,6 @@ h4 {
     text-decoration: none;
 }
 
-@media (max-width: 991px) {
-    .trial-area {
-        padding: 80px 0;
-    }
-    .trial-text h3 {
-        font-size: 36px;
-    }
-    .trial-text p {
-        font-size: 18px;
-    }
-    .trial-img a {
-        margin: 0;
-        margin-right: 40px;
-    }
-}
-
 
 /* 
  Footer area css
@@ -637,7 +501,147 @@ h4 {
     margin: 0 16px;
 }
 
-@media (max-width: 991px) {
+
+
+
+/* 
+ Responsive css
+*/
+
+@media ( max-width: 1199px ) {
+   .theme-button, .theme-button-two {
+    font-size: 14px;
+    padding: 15px 10px;
+   }
+}
+
+
+
+@media (max-width: 991px ) {
+
+    /* Default css */
+    .theme-text h3 {
+        font-size: 45px;
+    }
+    .theme-button-two {
+        margin-bottom: 20px;
+     }
+     .theme-button-two, .theme-button {
+        width: 100%;
+     }
+ 
+     .header-area .nav-link {
+         position: relative;
+     }
+     .header-area .nav-link::after {
+         position: absolute;
+         top: 50%;
+         right: 12px;
+         transform: translateY(-50%);
+         
+     }
+
+     /* hero area css */
+     .hero-area {
+        text-align: center;
+        padding: 80px 0;
+    }
+    .hero-area h3 {
+        font-size: 36px;
+
+    }
+    .hero-area .theme-button {
+        margin-bottom: 50px;
+    }
+
+    /* work area css */
+    .management-area {
+        padding: 80px 0;
+    }
+    .management-area .theme-button {
+        margin-bottom: 50px;
+    }
+    .work-management {
+        margin-top: 60px;
+    }
+    
+    /* Extension area */
+    .extension-area {
+        padding: 80px 0;
+        text-align: center;
+    }
+
+    .extension-area .theme-button {
+        margin: 50px 0;
+    }
+
+    /* Customize area */
+    .customize-area {
+        padding: 80px 0;
+        text-align: center;
+    }
+
+    .extension-area .theme-button {
+        margin: 50px 0;
+    }
+
+    /* pricing area */
+    .pricing-area {
+        padding: 80px 0;
+    }
+
+    /* your data area */
+    .your-data-area {
+        padding: 80px 0;
+    }
+
+    .your-data-area {
+        text-align: center;
+    }
+    .your-data-area .theme-button-two, .theme-button {
+        width: inherit;
+    }
+
+    /* sponsor area */
+    .sponsors-area {
+        padding-top: 80px;
+    }
+    .sponsors-area {
+        padding-bottom: 30px;
+    }
+
+    .single-sponsors img {
+        margin-bottom: 50px;
+    }
+
+    /* apps area */
+    .apps-area {
+        padding-top: 80px;
+    }
+
+    .apps-image {
+        margin-bottom: 50px;
+    }
+
+    .apps-area .theme-text {
+        text-align: center;
+    }
+    /* testomonial area */
+    .trial-area {
+        padding: 80px 0;
+    }
+    .trial-text h3 {
+        font-size: 36px;
+    }
+    .trial-text p {
+        font-size: 18px;
+    }
+    .trial-img a {
+        margin: 0;
+        margin-right: 40px;
+    }
+
+    /* footer area */
     .footer-top {
         text-align: center;
         border-bottom: none;
